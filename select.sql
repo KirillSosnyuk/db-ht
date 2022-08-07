@@ -6,7 +6,7 @@ select name, duration from track
 	limit 1;
 
 select name, duration from track
-	where duration > '00:03:50';
+	where duration > '00:03:30';
 
 select name from playlist
 	where publication_date between '2018-01-01' and '2020-12-31';
